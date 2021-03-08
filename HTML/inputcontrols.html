@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input Controls</title>
+</head>
+
+<body>
+    <form name="user-registration-form">
+        <table style="background-color: aliceblue; border: black dotted 1px;">
+            <th>
+                <td colspan="4"><strong>User Registration Form</strong></td>
+            </th>
+            <tr>
+                <td>
+                    <label for="username">User Name:</label>
+                </td>
+                <td colspan="2">
+                    <input type="text" id="username" name="username" maxlength="20" placeholder="Enter your username" />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="password">Password:</label>
+                </td>
+                <td colspan="2">
+                    <input type="password" id="password" name="password" maxlength="20"
+                        placeholder="Enter your password" />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="email">Email:</label>
+                </td>
+                <td colspan="2">
+                    <input type="email" id="email" name="email" maxlength="50" placeholder="Enter your email id" />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="firstname">First Name:</label>
+                </td>
+                <td colspan="2">
+                    <input type="text" id="firstname" name="firstname" maxlength="20"
+                        placeholder="Enter your first name" />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="lastname">Last Name:</label>
+                </td>
+                <td colspan="2">
+                    <input type="text" id="lastname" name="lastname" maxlength="20"
+                        placeholder="Enter your last name" />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="address">Address:</label>
+                </td>
+                <td colspan="2">
+                    <textarea name="address" id="address" placeholder="Enter your address" rows="3" cols="30"
+                        maxlength="500"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="city">City:</label>
+                </td>
+                <td>
+                    <select name="city" id="city">
+                        <option value="0"></option>
+                        <option value="1">Delhi</option>
+                        <option value="2">Gurgaon</option>
+                        <option value="3" selected>Noida</option>
+                        <option value="4">Chandigarh</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="gender">Gender:</label>
+                </td>
+                <td>
+                    <input type="radio" name="gender" value="male">
+                    <label for="male">Male</label>
+                </td>
+                <td>
+                    <input type="radio" name="gender" value="female">
+                    <label for="female">Female</label>
+                </td>
+                <td>
+                    <input type="radio" name="gender" value="other">
+                    <label for="other">Other</label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="age">Age:</label>
+                </td>
+                <td colspan="2">
+                    <input type="number" name="age" value="age" placeholder="Enter your age"/>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>Qualifications?</label>
+                </td>
+                <td>
+                    <input type="checkbox" name="secondary" id="secondary">
+                    <label for="secondary">10th</label>
+                </td>
+                <td>
+                    <input type="checkbox" name="seniorsecondary" id="seniorsecondary">
+                    <label for="seniorsecondary">12th</label>
+                </td>
+                <td>
+                    <input type="checkbox" name="degree" id="degree">
+                    <label for="degree">Degree</label>
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <input type="submit" value="Submit"/>
+                </td>
+                <td>
+                    <input type="reset" value="Reset"/>
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+
+</html>
