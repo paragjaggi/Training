@@ -1,0 +1,847 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+    <title>Naruto</title>
+    <style>
+        body {
+            background: #23074d;
+            /* fallback for old browsers */
+            background: -webkit-linear-gradient(to right, #cc5333, #23074d);
+            /* Chrome 10-25, Safari 5.1-6 */
+            background: linear-gradient(to right, #cc5333, #23074d);
+            /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+        }
+        .accordion-style {
+            width: 80%;
+            margin: 10px auto;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-sm nav-pills bg-dark">
+        <ul class="nav  mr-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="naruto.html">Naruto</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Demon Slayer</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="signup.html">Register</a>
+            </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="text" placeholder="Search">
+            <button class="btn btn-success my-2 my-sm-0" type="button">Search</button>
+        </form>
+    </nav>
+    <div id="accordion" class="accordion-style">
+        <div class="card">
+            <div class="card-header text-light" style="background:#F77F00" id="headingOne">
+                <h5 class="mb-0 text-dark" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true"
+                        aria-controls="collapseOne">
+                        Season 1 (2002–03)
+                </h5>
+            </div>
+
+            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                <div class="card-body">
+                    <table class="table table-striped table-bordered">
+                        <tbody>
+                            <tr style="color:black;text-align:center">
+                                <th scope="col" style="background:#F77F00;width:5%"><abbr title="Number">No.</abbr></th>
+                                <th scope="col" style="background:#F77F00">Title</th>
+                                <th scope="col" style="background:#F77F00">Original air date</th>
+                                <th scope="col" style="background:#F77F00">English air date</th>
+                            </tr>
+                            <tr class="vevent" style="text-align:center;background:inherit">
+                                <th scope="row" rowspan="1" id="ep1" style="text-align:center">1</th>
+                                <td class="summary" style="text-align:left">"Enter: Naruto Uzumaki!"<br>Transcription:
+                                    "<span style="font-style: normal" lang="ja-Latn"
+                                        title="Japanese-language romanization">Sanjō! Uzumaki
+                                        Naruto!</span>" (<a href="/wiki/Japanese_language"
+                                        title="Japanese language">Japanese</a>: <span lang="ja">参上!うずまきナルト</span>)</td>
+                                <td style="text-align:center">October&nbsp;3,&nbsp;2002<span
+                                        style="display:none">&nbsp;(<span
+                                            class="bday dtstart published updated">2002-10-03</span>)</span></td>
+                                <td style="text-align:center">September 10, 2005</td>
+                            </tr>
+                            <tr class="vevent" style="text-align:center;background:inherit">
+                                <th scope="row" rowspan="1" id="ep2" style="text-align:center">2</th>
+                                <td class="summary" style="text-align:left">"My Name is Konohamaru!"<br>Transcription:
+                                    "<span style="font-style: normal" lang="ja-Latn"
+                                        title="Japanese-language romanization">Konohamaru da
+                                        kore!</span>" (<a href="/wiki/Japanese_language"
+                                        title="Japanese language">Japanese</a>: <span lang="ja">木ノ葉丸だ コレ!</span>)</td>
+                                <td style="text-align:center">October&nbsp;10,&nbsp;2002<span
+                                        style="display:none">&nbsp;(<span
+                                            class="bday dtstart published updated">2002-10-10</span>)</span></td>
+                                <td style="text-align:center">September 10, 2005</td>
+                            </tr>
+                            <tr class="vevent" style="text-align:center;background:inherit">
+                                <th scope="row" rowspan="1" id="ep3" style="text-align:center">3</th>
+                                <td class="summary" style="text-align:left">"Sasuke and Sakura: Friends or
+                                    Foes?"<br>Transcription:
+                                    "<span style="font-style: normal" lang="ja-Latn"
+                                        title="Japanese-language romanization">Shukuteki!?
+                                        Sasuke to Sakura</span>" (<a href="/wiki/Japanese_language"
+                                        title="Japanese language">Japanese</a>: <span lang="ja">宿敵!?サスケとサクラ</span>)</td>
+                                <td style="text-align:center">October&nbsp;17,&nbsp;2002<span
+                                        style="display:none">&nbsp;(<span
+                                            class="bday dtstart published updated">2002-10-17</span>)</span></td>
+                                <td style="text-align:center">September 17, 2005</td>
+                            </tr>
+                            <tr class="vevent" style="text-align:center;background:inherit">
+                                <th scope="row" rowspan="1" id="ep4" style="text-align:center">4</th>
+                                <td class="summary" style="text-align:left">"Pass or Fail: Survival
+                                    Test"<br>Transcription: "<span style="font-style: normal" lang="ja-Latn"
+                                        title="Japanese-language romanization">Shiren!
+                                        Sabaibaru enshū</span>" (<a href="/wiki/Japanese_language"
+                                        title="Japanese language">Japanese</a>: <span lang="ja">試練!サバイバル演習</span>)</td>
+                                <td style="text-align:center">October&nbsp;24,&nbsp;2002<span
+                                        style="display:none">&nbsp;(<span
+                                            class="bday dtstart published updated">2002-10-24</span>)</span></td>
+                                <td style="text-align:center">September 24, 2005</td>
+                            </tr>
+                            <tr class="vevent" style="text-align:center;background:inherit">
+                                <th scope="row" rowspan="1" id="ep5" style="text-align:center">5</th>
+                                <td class="summary" style="text-align:left">"You Failed! Kakashi's Final
+                                    Decision"<br>Transcription:
+                                    "<span style="font-style: normal" lang="ja-Latn"
+                                        title="Japanese-language romanization">Shikkaku?
+                                        Kakashi no Ketsuron</span>" (<a href="/wiki/Japanese_language"
+                                        title="Japanese language">Japanese</a>: <span lang="ja">失格?カカシの結論</span>)</td>
+                                <td style="text-align:center">October&nbsp;31,&nbsp;2002<span
+                                        style="display:none">&nbsp;(<span
+                                            class="bday dtstart published updated">2002-10-31</span>)</span></td>
+                                <td style="text-align:center">October 1, 2005</td>
+                            </tr>
+                            <tr class="vevent" style="text-align:center;background:inherit">
+                                <th scope="row" rowspan="1" id="ep6" style="text-align:center">6</th>
+                                <td class="summary" style="text-align:left">"A Dangerous Mission! Journey to the Land of
+                                    Waves!"<br>Transcription: "<span style="font-style: normal" lang="ja-Latn"
+                                        title="Japanese-language romanization">Jūyō ninmu! Nami no Kuni e
+                                        chō-shuppatsu!</span>" (<a href="/wiki/Japanese_language"
+                                        title="Japanese language">Japanese</a>: <span lang="ja">重要任務!波の国へ超出発!</span>)
+                                </td>
+                                <td style="text-align:center">November&nbsp;7,&nbsp;2002<span
+                                        style="display:none">&nbsp;(<span
+                                            class="bday dtstart published updated">2002-11-07</span>)</span></td>
+                                <td style="text-align:center">October 8, 2005</td>
+                            </tr>
+                            <tr class="vevent" style="text-align:center;background:inherit">
+                                <th scope="row" rowspan="1" id="ep7" style="text-align:center">7</th>
+                                <td class="summary" style="text-align:left">"The Assassin of the
+                                    Mist!"<br>Transcription: "<span style="font-style: normal" lang="ja-Latn"
+                                        title="Japanese-language romanization">Kiri no
+                                        ansatsusha!</span>" (<a href="/wiki/Japanese_language"
+                                        title="Japanese language">Japanese</a>:
+                                    <span lang="ja">霧の暗殺者!</span>)
+                                </td>
+                                <td style="text-align:center">November&nbsp;14,&nbsp;2002<span
+                                        style="display:none">&nbsp;(<span
+                                            class="bday dtstart published updated">2002-11-14</span>)</span></td>
+                                <td style="text-align:center">October 15, 2005</td>
+                            </tr>
+                            <tr class="vevent" style="text-align:center;background:inherit">
+                                <th scope="row" rowspan="1" id="ep8" style="text-align:center">8</th>
+                                <td class="summary" style="text-align:left">"The Oath of Pain"<br>Transcription: "<span
+                                        style="font-style: normal" lang="ja-Latn"
+                                        title="Japanese-language romanization">Itami ni chikau
+                                        ketsui</span>" (<a href="/wiki/Japanese_language"
+                                        title="Japanese language">Japanese</a>: <span lang="ja">痛みに誓う決意</span>)</td>
+                                <td style="text-align:center">November&nbsp;21,&nbsp;2002<span
+                                        style="display:none">&nbsp;(<span
+                                            class="bday dtstart published updated">2002-11-21</span>)</span></td>
+                                <td style="text-align:center">October 22, 2005</td>
+                            </tr>
+                            <tr class="vevent" style="text-align:center;background:inherit">
+                                <th scope="row" rowspan="1" id="ep9" style="text-align:center">9</th>
+                                <td class="summary" style="text-align:left">"Kakashi: Sharingan
+                                    Warrior!"<br>Transcription: "<span style="font-style: normal" lang="ja-Latn"
+                                        title="Japanese-language romanization">Sharingan no
+                                        Kakashi</span>" (<a href="/wiki/Japanese_language"
+                                        title="Japanese language">Japanese</a>: <span lang="ja">写輪眼のカカシ</span>)</td>
+                                <td style="text-align:center">November&nbsp;28,&nbsp;2002<span
+                                        style="display:none">&nbsp;(<span
+                                            class="bday dtstart published updated">2002-11-28</span>)</span></td>
+                                <td style="text-align:center">October 29, 2005</td>
+                            </tr>
+                            <tr class="vevent" style="text-align:center;background:inherit">
+                                <th scope="row" rowspan="1" id="ep10" style="text-align:center">10</th>
+                                <td class="summary" style="text-align:left">"The Forest of Chakra"<br>Transcription:
+                                    "<span style="font-style: normal" lang="ja-Latn"
+                                        title="Japanese-language romanization">Chakura no
+                                        mori</span>" (<a href="/wiki/Japanese_language"
+                                        title="Japanese language">Japanese</a>: <span lang="ja">チャクラの森</span>)</td>
+                                <td style="text-align:center">December&nbsp;5,&nbsp;2002<span
+                                        style="display:none">&nbsp;(<span
+                                            class="bday dtstart published updated">2002-12-05</span>)</span></td>
+                                <td style="text-align:center">November 5, 2005</td>
+                            </tr>
+                            <tr class="vevent" style="text-align:center;background:inherit">
+                                <th scope="row" rowspan="1" id="ep11" style="text-align:center">11</th>
+                                <td class="summary" style="text-align:left">"The Land Where a Hero Once
+                                    Lived"<br>Transcription: "<span style="font-style: normal" lang="ja-Latn"
+                                        title="Japanese-language romanization">Eiyū no ita
+                                        kuni</span>" (<a href="/wiki/Japanese_language"
+                                        title="Japanese language">Japanese</a>: <span lang="ja">英雄のいた国</span>)</td>
+                                <td style="text-align:center">December&nbsp;12,&nbsp;2002<span
+                                        style="display:none">&nbsp;(<span
+                                            class="bday dtstart published updated">2002-12-12</span>)</span></td>
+                                <td style="text-align:center">November 12, 2005</td>
+                            </tr>
+                            <tr class="vevent" style="text-align:center;background:inherit">
+                                <th scope="row" rowspan="1" id="ep12" style="text-align:center">12</th>
+                                <td class="summary" style="text-align:left">"Battle on the Bridge! Zabuza
+                                    Returns!"<br>Transcription:
+                                    "<span style="font-style: normal" lang="ja-Latn"
+                                        title="Japanese-language romanization">Kyōjō
+                                        kessen! Zabuza futatabi!!</span>" (<a href="/wiki/Japanese_language"
+                                        title="Japanese language">Japanese</a>: <span lang="ja">橋上決戦!ザブザ再び!!</span>)
+                                </td>
+                                <td style="text-align:center">December&nbsp;19,&nbsp;2002<span
+                                        style="display:none">&nbsp;(<span
+                                            class="bday dtstart published updated">2002-12-19</span>)</span></td>
+                                <td style="text-align:center">November 19, 2005</td>
+                            </tr>
+                            <tr class="vevent" style="text-align:center;background:inherit">
+                                <th scope="row" rowspan="1" id="ep13" style="text-align:center">13</th>
+                                <td class="summary" style="text-align:left">"Haku's Secret Jutsu: Demonic Mirroring Ice
+                                    Crystals"<br>Transcription: "<span style="font-style: normal" lang="ja-Latn"
+                                        title="Japanese-language romanization">Haku no hijutsu - Makyō Hyōshō</span>"
+                                    (<a href="/wiki/Japanese_language" title="Japanese language">Japanese</a>: <span
+                                        lang="ja">白の秘術•魔鏡氷晶</span>)</td>
+                                <td style="text-align:center">December&nbsp;26,&nbsp;2002<span
+                                        style="display:none">&nbsp;(<span
+                                            class="bday dtstart published updated">2002-12-26</span>)</span></td>
+                                <td style="text-align:center">November 26, 2005</td>
+                            </tr>
+                            <tr class="vevent" style="text-align:center;background:inherit">
+                                <th scope="row" rowspan="1" id="ep14" style="text-align:center">14</th>
+                                <td class="summary" style="text-align:left">"The Number One Hyperactive, Knucklehead
+                                    Ninja Joins the
+                                    Fight!"<br>Transcription: "<span style="font-style: normal" lang="ja-Latn"
+                                        title="Japanese-language romanization">Igaisei nanbā wan, Naruto sansen!</span>"
+                                    (<a href="/wiki/Japanese_language" title="Japanese language">Japanese</a>: <span
+                                        lang="ja">意外性No. 1,
+                                        ナルト参戦!</span>)</td>
+                                <td style="text-align:center">January&nbsp;9,&nbsp;2003<span
+                                        style="display:none">&nbsp;(<span
+                                            class="bday dtstart published updated">2003-01-09</span>)</span></td>
+                                <td style="text-align:center">December 3, 2005</td>
+                            </tr>
+                            <tr class="vevent" style="text-align:center;background:inherit">
+                                <th scope="row" rowspan="1" id="ep15" style="text-align:center">15</th>
+                                <td class="summary" style="text-align:left">"Zero Visibility: The Sharingan
+                                    Shatters"<br>Transcription:
+                                    "<span style="font-style: normal" lang="ja-Latn"
+                                        title="Japanese-language romanization">Shikai zero
+                                        no tatakai - Sharingan kuzushi</span>" (<a href="/wiki/Japanese_language"
+                                        title="Japanese language">Japanese</a>: <span lang="ja">視界ゼロの戦い•写輪眼崩し</span>)
+                                </td>
+                                <td style="text-align:center">January&nbsp;16,&nbsp;2003<span
+                                        style="display:none">&nbsp;(<span
+                                            class="bday dtstart published updated">2003-01-16</span>)</span></td>
+                                <td style="text-align:center">December 10, 2005</td>
+                            </tr>
+                            <tr class="vevent" style="text-align:center;background:inherit">
+                                <th scope="row" rowspan="1" id="ep16" style="text-align:center">16</th>
+                                <td class="summary" style="text-align:left">"The Broken Seal"<br>Transcription: "<span
+                                        style="font-style: normal" lang="ja-Latn"
+                                        title="Japanese-language romanization">Kaihōsareta
+                                        fūin</span>" (<a href="/wiki/Japanese_language"
+                                        title="Japanese language">Japanese</a>: <span lang="ja">解放された封印</span>)</td>
+                                <td style="text-align:center">January&nbsp;23,&nbsp;2003<span
+                                        style="display:none">&nbsp;(<span
+                                            class="bday dtstart published updated">2003-01-23</span>)</span></td>
+                                <td style="text-align:center">December 17, 2005</td>
+                            </tr>
+                            <tr class="vevent" style="text-align:center;background:inherit">
+                                <th scope="row" rowspan="1" id="ep17" style="text-align:center">17</th>
+                                <td class="summary" style="text-align:left">"White Past: Hidden
+                                    Ambition"<br>Transcription: "<span style="font-style: normal" lang="ja-Latn"
+                                        title="Japanese-language romanization">Shiroi Kako -
+                                        Himeta Omoi</span>" (<a href="/wiki/Japanese_language"
+                                        title="Japanese language">Japanese</a>:
+                                    <span lang="ja">白い過去•秘めた想い</span>)
+                                </td>
+                                <td style="text-align:center">January&nbsp;30,&nbsp;2003<span
+                                        style="display:none">&nbsp;(<span
+                                            class="bday dtstart published updated">2003-01-30</span>)</span></td>
+                                <td style="text-align:center">December 31, 2005</td>
+                            </tr>
+                            <tr class="vevent" style="text-align:center;background:inherit">
+                                <th scope="row" rowspan="1" id="ep18" style="text-align:center">18</th>
+                                <td class="summary" style="text-align:left">"The Weapons Known as
+                                    Shinobi"<br>Transcription: "<span style="font-style: normal" lang="ja-Latn"
+                                        title="Japanese-language romanization">Shinobi to iu
+                                        na no dōgu</span>" (<a href="/wiki/Japanese_language"
+                                        title="Japanese language">Japanese</a>:
+                                    <span lang="ja">忍という名の道具</span>)
+                                </td>
+                                <td style="text-align:center">February&nbsp;6,&nbsp;2003<span
+                                        style="display:none">&nbsp;(<span
+                                            class="bday dtstart published updated">2003-02-06</span>)</span></td>
+                                <td style="text-align:center">January 7, 2006</td>
+                            </tr>
+                            <tr class="vevent" style="text-align:center;background:inherit">
+                                <th scope="row" rowspan="1" id="ep19" style="text-align:center">19</th>
+                                <td class="summary" style="text-align:left">"The Demon in the Snow"<br>Transcription:
+                                    "<span style="font-style: normal" lang="ja-Latn"
+                                        title="Japanese-language romanization">Zabuza yuki ni
+                                        chiru...</span>" (<a href="/wiki/Japanese_language"
+                                        title="Japanese language">Japanese</a>:
+                                    <span lang="ja">ザブザ雪に散る...</span>)
+                                </td>
+                                <td style="text-align:center">February&nbsp;13,&nbsp;2003<span
+                                        style="display:none">&nbsp;(<span
+                                            class="bday dtstart published updated">2003-02-13</span>)</span></td>
+                                <td style="text-align:center">January 14, 2006</td>
+                            </tr>
+                            <tr class="vevent" style="text-align:center;background:inherit">
+                                <th scope="row" rowspan="1" id="ep20" style="text-align:center">20</th>
+                                <td class="summary" style="text-align:left">"A New Chapter Begins: The Chunin
+                                    Exam!"<br>Transcription:
+                                    "<span style="font-style: normal" lang="ja-Latn"
+                                        title="Japanese-language romanization">Shinshō
+                                        totsunyū! Chūnin Shiken dattebayo</span>" (<a href="/wiki/Japanese_language"
+                                        title="Japanese language">Japanese</a>: <span lang="ja">新章突入!中忍試験だってばよ</span>)
+                                </td>
+                                <td style="text-align:center">February&nbsp;20,&nbsp;2003<span
+                                        style="display:none">&nbsp;(<span
+                                            class="bday dtstart published updated">2003-02-20</span>)</span></td>
+                                <td style="text-align:center">January 21, 2006</td>
+                            </tr>
+                            <tr class="vevent" style="text-align:center;background:inherit">
+                                <th scope="row" rowspan="1" id="ep21" style="text-align:center">21</th>
+                                <td class="summary" style="text-align:left">"Identify Yourself: Powerful New
+                                    Rivals"<br>Transcription:
+                                    "<span style="font-style: normal" lang="ja-Latn"
+                                        title="Japanese-language romanization">Nanore!
+                                        Arawareta kyōteki tachi!!</span>" (<a href="/wiki/Japanese_language"
+                                        title="Japanese language">Japanese</a>: <span lang="ja">名乗れ!現れた強敵たち!!</span>)
+                                </td>
+                                <td style="text-align:center">February&nbsp;27,&nbsp;2003<span
+                                        style="display:none">&nbsp;(<span
+                                            class="bday dtstart published updated">2003-02-27</span>)</span></td>
+                                <td style="text-align:center">January 28, 2006</td>
+                            </tr>
+                            <tr class="vevent" style="text-align:center;background:inherit">
+                                <th scope="row" rowspan="1" id="ep22" style="text-align:center">22</th>
+                                <td class="summary" style="text-align:left">"Chunin Challenge: Rock Lee vs.
+                                    Sasuke!"<br>Transcription:
+                                    "<span style="font-style: normal" lang="ja-Latn"
+                                        title="Japanese-language romanization">Kiai
+                                        hyaku-nijū pāsento Nau de rokku na chōsenjō!</span>" (<a
+                                        href="/wiki/Japanese_language" title="Japanese language">Japanese</a>: <span
+                                        lang="ja">気合い120% ナウでロックな挑戦状!</span>)</td>
+                                <td style="text-align:center">March&nbsp;6,&nbsp;2003<span
+                                        style="display:none">&nbsp;(<span
+                                            class="bday dtstart published updated">2003-03-06</span>)</span></td>
+                                <td style="text-align:center">February 4, 2006</td>
+                            </tr>
+                            <tr class="vevent" style="text-align:center;background:inherit">
+                                <th scope="row" rowspan="1" id="ep23" style="text-align:center">23</th>
+                                <td class="summary" style="text-align:left">"Genin Takedown! All Nine Rookies Face
+                                    Off!"<br>Transcription: "<span style="font-style: normal" lang="ja-Latn"
+                                        title="Japanese-language romanization">Kechirase raibaru! Rūkī nain zen'in
+                                        shūgō</span>" (<a href="/wiki/Japanese_language"
+                                        title="Japanese language">Japanese</a>: <span
+                                        lang="ja">蹴散らせライバル!新人9人全員集合</span>)</td>
+                                <td style="text-align:center">March&nbsp;13,&nbsp;2003<span
+                                        style="display:none">&nbsp;(<span
+                                            class="bday dtstart published updated">2003-03-13</span>)</span></td>
+                                <td style="text-align:center">February 11, 2006</td>
+                            </tr>
+                            <tr class="vevent" style="text-align:center;background:inherit">
+                                <th scope="row" rowspan="1" id="ep24" style="text-align:center">24</th>
+                                <td class="summary" style="text-align:left">"Start Your Engines: The Chunin Exam
+                                    Begins!"<br>Transcription: "<span style="font-style: normal" lang="ja-Latn"
+                                        title="Japanese-language romanization">Ikinari shikkaku? Chō-nankan no daiichi
+                                        shiken</span>"
+                                    (<a href="/wiki/Japanese_language" title="Japanese language">Japanese</a>: <span
+                                        lang="ja">いきなり失格?超難関の第一試験</span>)</td>
+                                <td style="text-align:center">March&nbsp;20,&nbsp;2003<span
+                                        style="display:none">&nbsp;(<span
+                                            class="bday dtstart published updated">2003-03-20</span>)</span></td>
+                                <td style="text-align:center">February 18, 2006</td>
+                            </tr>
+                            <tr class="vevent" style="text-align:center;background:inherit">
+                                <th scope="row" rowspan="1" id="ep25" style="text-align:center">25</th>
+                                <td class="summary" style="text-align:left">"The Tenth Question: All or
+                                    Nothing!"<br>Transcription:
+                                    "<span style="font-style: normal" lang="ja-Latn"
+                                        title="Japanese-language romanization">Detatoko
+                                        shōbu! Funbaridokoro no jū monme</span>" (<a href="/wiki/Japanese_language"
+                                        title="Japanese language">Japanese</a>: <span
+                                        lang="ja">出たとこ勝負!踏ん張りどころの10問目</span>)</td>
+                                <td style="text-align:center">March&nbsp;27,&nbsp;2003<span
+                                        style="display:none">&nbsp;(<span
+                                            class="bday dtstart published updated">2003-03-27</span>)</span></td>
+                                <td style="text-align:center">February 25, 2006</td>
+                            </tr>
+                            <tr class="vevent" style="text-align:center;background:inherit">
+                                <th scope="row" rowspan="1" id="ep26" style="text-align:center">26</th>
+                                <td class="summary" style="text-align:left">"Special Report: Live from the Forest of
+                                    Death!"<br>Transcription: "<span style="font-style: normal" lang="ja-Latn"
+                                        title="Japanese-language romanization">Zettai hikken! Shi no Mori chokusen rupo!
+                                        Konoha no
+                                        gakkyū shinbun da kore!</span>" (<a href="/wiki/Japanese_language"
+                                        title="Japanese language">Japanese</a>: <span
+                                        lang="ja">絶対必見!死の森直前ルポ!木ノ葉の学級新聞だコレ!</span>)</td>
+                                <td style="text-align:center">April&nbsp;2,&nbsp;2003<span
+                                        style="display:none">&nbsp;(<span
+                                            class="bday dtstart published updated">2003-04-02</span>)</span></td>
+                                <td style="text-align:center">March 4, 2006</td>
+                            </tr>
+                            <tr class="vevent" style="text-align:center;background:inherit">
+                                <th scope="row" rowspan="1" id="ep27" style="text-align:center">27</th>
+                                <td class="summary" style="text-align:left">"The Chunin Exam Stage 2: The Forest of
+                                    Death"<br>Transcription: "<span style="font-style: normal" lang="ja-Latn"
+                                        title="Japanese-language romanization">Daini shiken sutāto! Mawari wa minna teki
+                                        darake!</span>"
+                                    (<a href="/wiki/Japanese_language" title="Japanese language">Japanese</a>: <span
+                                        lang="ja">第二試験スタート!周りはみんな敵だらけ!</span>)</td>
+                                <td style="text-align:center">April&nbsp;2,&nbsp;2003<span
+                                        style="display:none">&nbsp;(<span
+                                            class="bday dtstart published updated">2003-04-02</span>)</span></td>
+                                <td style="text-align:center">April 15, 2006</td>
+                            </tr>
+                            <tr class="vevent" style="text-align:center;background:inherit">
+                                <th scope="row" rowspan="1" id="ep28" style="text-align:center">28</th>
+                                <td class="summary" style="text-align:left">"Eat or be Eaten: Panic in the
+                                    Forest"<br>Transcription:
+                                    "<span style="font-style: normal" lang="ja-Latn"
+                                        title="Japanese-language romanization">Kū ka
+                                        kuwareru ka! Esa ni natta Naruto</span>" (<a href="/wiki/Japanese_language"
+                                        title="Japanese language">Japanese</a>: <span
+                                        lang="ja">喰うか喰われるか!エサになったナルト</span>)</td>
+                                <td style="text-align:center">April&nbsp;9,&nbsp;2003<span
+                                        style="display:none">&nbsp;(<span
+                                            class="bday dtstart published updated">2003-04-09</span>)</span></td>
+                                <td style="text-align:center">April 15, 2006</td>
+                            </tr>
+                            <tr class="vevent" style="text-align:center;background:inherit">
+                                <th scope="row" rowspan="1" id="ep29" style="text-align:center">29</th>
+                                <td class="summary" style="text-align:left">"Naruto's Counterattack: Never Give
+                                    In!"<br>Transcription:
+                                    "<span style="font-style: normal" lang="ja-Latn"
+                                        title="Japanese-language romanization">Naruto
+                                        hangeki! Nigenēndattebayo!</span>" (<a href="/wiki/Japanese_language"
+                                        title="Japanese language">Japanese</a>: <span
+                                        lang="ja">ナルト反撃!逃げねーんだってばよ!</span>)</td>
+                                <td style="text-align:center">April&nbsp;16,&nbsp;2003<span
+                                        style="display:none">&nbsp;(<span
+                                            class="bday dtstart published updated">2003-04-16</span>)</span></td>
+                                <td style="text-align:center">April 15, 2006</td>
+                            </tr>
+                            <tr class="vevent" style="text-align:center;background:inherit">
+                                <th scope="row" rowspan="1" id="ep30" style="text-align:center">30</th>
+                                <td class="summary" style="text-align:left">"The Sharingan Revived: Dragon-Flame
+                                    Jutsu!"<br>Transcription: "<span style="font-style: normal" lang="ja-Latn"
+                                        title="Japanese-language romanization">Yomigaere Sharingan! Hissatsu: Katon
+                                        Ryūka no
+                                        Jutsu!</span>" (<a href="/wiki/Japanese_language"
+                                        title="Japanese language">Japanese</a>: <span lang="ja">蘇れ写輪眼!必殺•火遁龍火の術!</span>)
+                                </td>
+                                <td style="text-align:center">April&nbsp;23,&nbsp;2003<span
+                                        style="display:none">&nbsp;(<span
+                                            class="bday dtstart published updated">2003-04-23</span>)</span></td>
+                                <td style="text-align:center">April 22, 2006</td>
+                            </tr>
+                            <tr class="vevent" style="text-align:center;background:inherit">
+                                <th scope="row" rowspan="1" id="ep31" style="text-align:center">31</th>
+                                <td class="summary" style="text-align:left">"Bushy Brow's Pledge: Undying Love and
+                                    Protection!"<br>Transcription: "<span style="font-style: normal" lang="ja-Latn"
+                                        title="Japanese-language romanization">Geki mayu puratonikku! Boku wa shinu made
+                                        anata o
+                                        mamoru!!</span>" (<a href="/wiki/Japanese_language"
+                                        title="Japanese language">Japanese</a>:
+                                    <span lang="ja">激まゆプラトニック!僕は死ぬまでアナタを守る!!</span>)
+                                </td>
+                                <td style="text-align:center">April&nbsp;30,&nbsp;2003<span
+                                        style="display:none">&nbsp;(<span
+                                            class="bday dtstart published updated">2003-04-30</span>)</span></td>
+                                <td style="text-align:center">April 29, 2006</td>
+                            </tr>
+                            <tr class="vevent" style="text-align:center;background:inherit">
+                                <th scope="row" rowspan="1" id="ep32" style="text-align:center">32</th>
+                                <td class="summary" style="text-align:left">"Sakura Blossoms!"<br>Transcription: "<span
+                                        style="font-style: normal" lang="ja-Latn"
+                                        title="Japanese-language romanization">Sakura saku!
+                                        Ketsui no ushiro sugata</span>" (<a href="/wiki/Japanese_language"
+                                        title="Japanese language">Japanese</a>: <span lang="ja">サクラ咲く!決意の後ろ姿</span>)
+                                </td>
+                                <td style="text-align:center">May&nbsp;7,&nbsp;2003<span
+                                        style="display:none">&nbsp;(<span
+                                            class="bday dtstart published updated">2003-05-07</span>)</span></td>
+                                <td style="text-align:center">May 6, 2006</td>
+                            </tr>
+                            <tr class="vevent" style="text-align:center;background:inherit">
+                                <th scope="row" rowspan="1" id="ep33" style="text-align:center">33</th>
+                                <td class="summary" style="text-align:left">"Battle Formation:
+                                    Ino-Shika-Cho!"<br>Transcription: "<span style="font-style: normal" lang="ja-Latn"
+                                        title="Japanese-language romanization">Muteki no
+                                        fōmēshon! InoShikaChō!!</span>" (<a href="/wiki/Japanese_language"
+                                        title="Japanese language">Japanese</a>: <span
+                                        lang="ja">無敵のフォーメーション!いのシカチョウ!!</span>)</td>
+                                <td style="text-align:center">May&nbsp;14,&nbsp;2003<span
+                                        style="display:none">&nbsp;(<span
+                                            class="bday dtstart published updated">2003-05-14</span>)</span></td>
+                                <td style="text-align:center">May 13, 2006</td>
+                            </tr>
+                            <tr class="vevent" style="text-align:center;background:inherit">
+                                <th scope="row" rowspan="1" id="ep34" style="text-align:center">34</th>
+                                <td class="summary" style="text-align:left">"Akamaru Trembles: Gaara's Cruel
+                                    Strength!"<br>Transcription: "<span style="font-style: normal" lang="ja-Latn"
+                                        title="Japanese-language romanization">Akamaru bikkuri! Gaara, Kyōi no
+                                        Jitsuryoku</span>" (<a href="/wiki/Japanese_language"
+                                        title="Japanese language">Japanese</a>: <span lang="ja">赤丸ビックリ!我愛羅,
+                                        驚異の実力</span>)</td>
+                                <td style="text-align:center">May&nbsp;21,&nbsp;2003<span
+                                        style="display:none">&nbsp;(<span
+                                            class="bday dtstart published updated">2003-05-21</span>)</span></td>
+                                <td style="text-align:center">May 20, 2006</td>
+                            </tr>
+                            <tr class="vevent" style="text-align:center;background:inherit">
+                                <th scope="row" rowspan="1" id="ep35" style="text-align:center">35</th>
+                                <td class="summary" style="text-align:left">"The Scroll's Secret: No Peeking
+                                    Allowed"<br>Transcription:
+                                    "<span style="font-style: normal" lang="ja-Latn"
+                                        title="Japanese-language romanization">Nozokimi
+                                        genkin! Makimono no himitsu</span>" (<a href="/wiki/Japanese_language"
+                                        title="Japanese language">Japanese</a>: <span lang="ja">のぞき見厳禁!巻き物の秘密</span>)
+                                </td>
+                                <td style="text-align:center">May&nbsp;28,&nbsp;2003<span
+                                        style="display:none">&nbsp;(<span
+                                            class="bday dtstart published updated">2003-05-28</span>)</span></td>
+                                <td style="text-align:center">May 27, 2006</td>
+                            </tr>
+                            <tr class="vevent" style="text-align:center;background:inherit">
+                                <th scope="row" rowspan="1" id="ep36" style="text-align:center">36</th>
+                                <td class="summary" style="text-align:left">"Clone vs. Clone: Mine are Better than
+                                    Yours!"<br>Transcription: "<span style="font-style: normal" lang="ja-Latn"
+                                        title="Japanese-language romanization">Bunshin taiketsu! Ore ga shuyaku
+                                        dattebayo!</span>" (<a href="/wiki/Japanese_language"
+                                        title="Japanese language">Japanese</a>: <span lang="ja">分身対決!オレが主役だってばよ!</span>)
+                                </td>
+                                <td style="text-align:center">June&nbsp;4,&nbsp;2003<span
+                                        style="display:none">&nbsp;(<span
+                                            class="bday dtstart published updated">2003-06-04</span>)</span></td>
+                                <td style="text-align:center">June 3, 2006</td>
+                            </tr>
+                            <tr class="vevent" style="text-align:center;background:inherit">
+                                <th scope="row" rowspan="1" id="ep37" style="text-align:center">37</th>
+                                <td class="summary" style="text-align:left">"Surviving the Cut! The Rookie Nine Together
+                                    Again!"<br>Transcription: "<span style="font-style: normal" lang="ja-Latn"
+                                        title="Japanese-language romanization">Daini shiken toppa! Seizoroi rūkī
+                                        nain!</span>" (<a href="/wiki/Japanese_language"
+                                        title="Japanese language">Japanese</a>: <span
+                                        lang="ja">第二試験突破!勢ぞろいルーキーナイン!</span>)</td>
+                                <td style="text-align:center">June&nbsp;11,&nbsp;2003<span
+                                        style="display:none">&nbsp;(<span
+                                            class="bday dtstart published updated">2003-06-11</span>)</span></td>
+                                <td style="text-align:center">June 10, 2006</td>
+                            </tr>
+                            <tr class="vevent" style="text-align:center;background:inherit">
+                                <th scope="row" rowspan="1" id="ep38" style="text-align:center">38</th>
+                                <td class="summary" style="text-align:left">"Narrowing the Field: Sudden Death
+                                    Elimination!"<br>Transcription: "<span style="font-style: normal" lang="ja-Latn"
+                                        title="Japanese-language romanization">Gōkakusha nibun ni ichi!? Ikinari shiai
+                                        dattebayo!!</span>" (<a href="/wiki/Japanese_language"
+                                        title="Japanese language">Japanese</a>:
+                                    <span lang="ja">合格者二分の一!?イキナリ試合だってばよ!!</span>)
+                                </td>
+                                <td style="text-align:center">June&nbsp;18,&nbsp;2003<span
+                                        style="display:none">&nbsp;(<span
+                                            class="bday dtstart published updated">2003-06-18</span>)</span></td>
+                                <td style="text-align:center">June 17, 2006</td>
+                            </tr>
+                            <tr class="vevent" style="text-align:center;background:inherit">
+                                <th scope="row" rowspan="1" id="ep39" style="text-align:center">39</th>
+                                <td class="summary" style="text-align:left">"Bushy Brow's Jealousy: Lions Barrage
+                                    Unleashed!"<br>Transcription: "<span style="font-style: normal" lang="ja-Latn"
+                                        title="Japanese-language romanization">Geji mayu jerashī! "Shishi Rendan"
+                                        Tanjō</span>" (<a href="/wiki/Japanese_language"
+                                        title="Japanese language">Japanese</a>: <span
+                                        lang="ja">ゲジまゆジェラシー!「獅子連弾」誕生!</span>)</td>
+                                <td style="text-align:center">July&nbsp;2,&nbsp;2003<span
+                                        style="display:none">&nbsp;(<span
+                                            class="bday dtstart published updated">2003-07-02</span>)</span></td>
+                                <td style="text-align:center">June 24, 2006</td>
+                            </tr>
+                            <tr class="vevent" style="text-align:center;background:inherit">
+                                <th scope="row" rowspan="1" id="ep40" style="text-align:center">40</th>
+                                <td class="summary" style="text-align:left">"Kakashi and Orochimaru:
+                                    Face-to-Face!"<br>Transcription:
+                                    "<span style="font-style: normal" lang="ja-Latn"
+                                        title="Japanese-language romanization">Isshoku
+                                        sokuhatsu!! Kakashi vāsasu Orochimaru</span>" (<a href="/wiki/Japanese_language"
+                                        title="Japanese language">Japanese</a>: <span lang="ja">一触即発!!カカシVS大蛇丸</span>)
+                                </td>
+                                <td style="text-align:center">July&nbsp;9,&nbsp;2003<span
+                                        style="display:none">&nbsp;(<span
+                                            class="bday dtstart published updated">2003-07-09</span>)</span></td>
+                                <td style="text-align:center">July 1, 2006</td>
+                            </tr>
+                            <tr class="vevent" style="text-align:center;background:inherit">
+                                <th scope="row" rowspan="1" id="ep41" style="text-align:center">41</th>
+                                <td class="summary" style="text-align:left">"Kunoichi Rumble: The Rivals Get
+                                    Serious!"<br>Transcription:
+                                    "<span style="font-style: normal" lang="ja-Latn"
+                                        title="Japanese-language romanization">Raibaru
+                                        gekitotsu! Otomegokoro wa honki mōdo</span>" (<a href="/wiki/Japanese_language"
+                                        title="Japanese language">Japanese</a>: <span
+                                        lang="ja">ライバル激突!オトメ心は本気モード</span>)</td>
+                                <td style="text-align:center">July&nbsp;16,&nbsp;2003<span
+                                        style="display:none">&nbsp;(<span
+                                            class="bday dtstart published updated">2003-07-16</span>)</span></td>
+                                <td style="text-align:center">July 8, 2006</td>
+                            </tr>
+                            <tr class="vevent" style="text-align:center;background:inherit">
+                                <th scope="row" rowspan="1" id="ep42" style="text-align:center">42</th>
+                                <td class="summary" style="text-align:left">"The Ultimate Battle:
+                                    Cha!"<br>Transcription: "<span style="font-style: normal" lang="ja-Latn"
+                                        title="Japanese-language romanization">Besuto batoru
+                                        wa shānnarō!!</span>" (<a href="/wiki/Japanese_language"
+                                        title="Japanese language">Japanese</a>:
+                                    <span lang="ja">ベストバトルはしゃーんなろー!!</span>)
+                                </td>
+                                <td style="text-align:center">July&nbsp;23,&nbsp;2003<span
+                                        style="display:none">&nbsp;(<span
+                                            class="bday dtstart published updated">2003-07-23</span>)</span></td>
+                                <td style="text-align:center">July 15, 2006</td>
+                            </tr>
+                            <tr class="vevent" style="text-align:center;background:inherit">
+                                <th scope="row" rowspan="1" id="ep43" style="text-align:center">43</th>
+                                <td class="summary" style="text-align:left">"Killer Kunoichi and a Shaky
+                                    Shikamaru"<br>Transcription:
+                                    "<span style="font-style: normal" lang="ja-Latn"
+                                        title="Japanese-language romanization">Shikamaru
+                                        tajitaji!? Kunoichi-tachi no atsuki tatakai</span>" (<a
+                                        href="/wiki/Japanese_language" title="Japanese language">Japanese</a>: <span
+                                        lang="ja">シカマルタジタジ!?くの一達の熱き戦い</span>)</td>
+                                <td style="text-align:center">July&nbsp;30,&nbsp;2003<span
+                                        style="display:none">&nbsp;(<span
+                                            class="bday dtstart published updated">2003-07-30</span>)</span></td>
+                                <td style="text-align:center">July 15, 2006</td>
+                            </tr>
+                            <tr class="vevent" style="text-align:center;background:inherit">
+                                <th scope="row" rowspan="1" id="ep44" style="text-align:center">44</th>
+                                <td class="summary" style="text-align:left">"Akamaru Unleashed! Who's Top Dog
+                                    Now?"<br>Transcription:
+                                    "<span style="font-style: normal" lang="ja-Latn"
+                                        title="Japanese-language romanization">Akamaru
+                                        sansen! Makeinu wa docchi da?</span>" (<a href="/wiki/Japanese_language"
+                                        title="Japanese language">Japanese</a>: <span lang="ja">赤丸参戦!!負け犬はどっちだ?</span>)
+                                </td>
+                                <td style="text-align:center">August&nbsp;6,&nbsp;2003<span
+                                        style="display:none">&nbsp;(<span
+                                            class="bday dtstart published updated">2003-08-06</span>)</span></td>
+                                <td style="text-align:center">July 22, 2006</td>
+                            </tr>
+                            <tr class="vevent" style="text-align:center;background:inherit">
+                                <th scope="row" rowspan="1" id="ep45" style="text-align:center">45</th>
+                                <td class="summary" style="text-align:left">"Surprise Attack! Naruto's Secret
+                                    Weapon!"<br>Transcription:
+                                    "<span style="font-style: normal" lang="ja-Latn"
+                                        title="Japanese-language romanization">Hinata
+                                        sekimen! Kankyaku anguri, Naruto no oku no te</span>" (<a
+                                        href="/wiki/Japanese_language" title="Japanese language">Japanese</a>: <span
+                                        lang="ja">ヒナタ赤面! 観客あんぐり, ナルトの奥の手</span>)</td>
+                                <td style="text-align:center">August&nbsp;13,&nbsp;2003<span
+                                        style="display:none">&nbsp;(<span
+                                            class="bday dtstart published updated">2003-08-13</span>)</span></td>
+                                <td style="text-align:center">July 29, 2006</td>
+                            </tr>
+                            <tr class="vevent" style="text-align:center;background:inherit">
+                                <th scope="row" rowspan="1" id="ep46" style="text-align:center">46</th>
+                                <td class="summary" style="text-align:left">"Byakugan Battle: Hinata Grows
+                                    Bold!"<br>Transcription:
+                                    "<span style="font-style: normal" lang="ja-Latn"
+                                        title="Japanese-language romanization">Byakugan
+                                        kaigen!! Uchiki na Hinata no daitan ketsui!</span>" (<a
+                                        href="/wiki/Japanese_language" title="Japanese language">Japanese</a>: <span
+                                        lang="ja">白眼開眼!!内気なヒナタの大胆決意!</span>)</td>
+                                <td style="text-align:center">August&nbsp;20,&nbsp;2003<span
+                                        style="display:none">&nbsp;(<span
+                                            class="bday dtstart published updated">2003-08-20</span>)</span></td>
+                                <td style="text-align:center">August 5, 2006</td>
+                            </tr>
+                            <tr class="vevent" style="text-align:center;background:inherit">
+                                <th scope="row" rowspan="1" id="ep47" style="text-align:center">47</th>
+                                <td class="summary" style="text-align:left">"A Failure Stands Tall!"<br>Transcription:
+                                    "<span style="font-style: normal" lang="ja-Latn"
+                                        title="Japanese-language romanization">Akogare no hito
+                                        no me no mae de!!</span>" (<a href="/wiki/Japanese_language"
+                                        title="Japanese language">Japanese</a>: <span lang="ja">憧れの人の目の前で!!</span>)</td>
+                                <td style="text-align:center">August&nbsp;27,&nbsp;2003<span
+                                        style="display:none">&nbsp;(<span
+                                            class="bday dtstart published updated">2003-08-27</span>)</span></td>
+                                <td style="text-align:center">August 12, 2006</td>
+                            </tr>
+                            <tr class="vevent" style="text-align:center;background:inherit">
+                                <th scope="row" rowspan="1" id="ep48" style="text-align:center">48</th>
+                                <td class="summary" style="text-align:left">"Gaara vs. Rock Lee: The Power of Youth
+                                    Explodes!"<br>Transcription: "<span style="font-style: normal" lang="ja-Latn"
+                                        title="Japanese-language romanization">Gaara funsai!! Wakasa da! Pawā da!
+                                        Bakuhatsu da!</span>"
+                                    (<a href="/wiki/Japanese_language" title="Japanese language">Japanese</a>: <span
+                                        lang="ja">我愛羅粉砕!!若さだ!パワーだ!爆発だ!</span>)</td>
+                                <td style="text-align:center">September&nbsp;3,&nbsp;2003<span
+                                        style="display:none">&nbsp;(<span
+                                            class="bday dtstart published updated">2003-09-03</span>)</span></td>
+                                <td style="text-align:center">August 19, 2006</td>
+                            </tr>
+                            <tr class="vevent" style="text-align:center;background:inherit">
+                                <th scope="row" rowspan="1" id="ep49" style="text-align:center">49</th>
+                                <td class="summary" style="text-align:left">"Lee's Hidden Strength: Forbidden Secret
+                                    Jutsu!"<br>Transcription: "<span style="font-style: normal" lang="ja-Latn"
+                                        title="Japanese-language romanization">Nekketsu ochikobore! Tsuini Sakuretsu,
+                                        kindan no
+                                        ōgi!</span>" (<a href="/wiki/Japanese_language"
+                                        title="Japanese language">Japanese</a>: <span lang="ja">熱血落ちこぼれ!遂に炸裂,
+                                        禁断の奥義!</span>)</td>
+                                <td style="text-align:center">September&nbsp;10,&nbsp;2003<span
+                                        style="display:none">&nbsp;(<span
+                                            class="bday dtstart published updated">2003-09-10</span>)</span></td>
+                                <td style="text-align:center">August 26, 2006</td>
+                            </tr>
+                            <tr class="vevent" style="text-align:center;background:inherit">
+                                <th scope="row" rowspan="1" id="ep50" style="text-align:center">50</th>
+                                <td class="summary" style="text-align:left">"The Fifth Gate: A Splendid Ninja is
+                                    Born"<br>Transcription:
+                                    "<span style="font-style: normal" lang="ja-Latn"
+                                        title="Japanese-language romanization">Aa Rokku Rī!
+                                        Kore ga otoko no ikizama yo!!</span>" (<a href="/wiki/Japanese_language"
+                                        title="Japanese language">Japanese</a>: <span
+                                        lang="ja">嗚呼ロック·リー!これが男の生き様よ!!</span>)</td>
+                                <td style="text-align:center">September&nbsp;17,&nbsp;2003<span
+                                        style="display:none">&nbsp;(<span
+                                            class="bday dtstart published updated">2003-09-17</span>)</span></td>
+                                <td style="text-align:center">September 2, 2006</td>
+                            </tr>
+                            <tr class="vevent" style="text-align:center;background:inherit">
+                                <th scope="row" rowspan="1" id="ep51" style="text-align:center">51</th>
+                                <td class="summary" style="text-align:left">"A Shadow in Darkness: Danger Approaches
+                                    Sasuke"<br>Transcription: "<span style="font-style: normal" lang="ja-Latn"
+                                        title="Japanese-language romanization">Yami ni ugomeku kage Sasuke ni semaru
+                                        kiki!</span>" (<a href="/wiki/Japanese_language"
+                                        title="Japanese language">Japanese</a>: <span lang="ja">闇にうごめく影
+                                        サスケに迫る危機!</span>)</td>
+                                <td style="text-align:center">September&nbsp;24,&nbsp;2003<span
+                                        style="display:none">&nbsp;(<span
+                                            class="bday dtstart published updated">2003-09-24</span>)</span></td>
+                                <td style="text-align:center">September 9, 2006</td>
+                            </tr>
+                            <tr class="vevent" style="text-align:center;background:inherit">
+                                <th scope="row" rowspan="1" id="ep52" style="text-align:center">52</th>
+                                <td class="summary" style="text-align:left">"Ebisu Returns: Naruto's Toughest Training
+                                    Yet!"<br>Transcription: "<span style="font-style: normal" lang="ja-Latn"
+                                        title="Japanese-language romanization">Ebisu futatabi! Harenchi wa watashi ga
+                                        yurushimasen
+                                        zo!</span>" (<a href="/wiki/Japanese_language"
+                                        title="Japanese language">Japanese</a>: <span
+                                        lang="ja">エビス再び!ハレンチは私が許しませんぞ!</span>)</td>
+                                <td style="text-align:center">October&nbsp;1,&nbsp;2003<span
+                                        style="display:none">&nbsp;(<span
+                                            class="bday dtstart published updated">2003-10-01</span>)</span></td>
+                                <td style="text-align:center">September 16, 2006</td>
+                            </tr>
+                            <tr class="vevent" style="text-align:center;background:inherit">
+                                <th scope="row" rowspan="1" id="ep53" style="text-align:center">53</th>
+                                <td class="summary" style="text-align:left">"Long Time No See: Jiraiya
+                                    Returns!"<br>Transcription:
+                                    "<span style="font-style: normal" lang="ja-Latn"
+                                        title="Japanese-language romanization">Aiyashibaraku! Ero-sennin tōjō!</span>"
+                                    (<a href="/wiki/Japanese_language" title="Japanese language">Japanese</a>: <span
+                                        lang="ja">あいやしばらく!エロ仙人登場!</span>)</td>
+                                <td style="text-align:center">October&nbsp;8,&nbsp;2003<span
+                                        style="display:none">&nbsp;(<span
+                                            class="bday dtstart published updated">2003-10-08</span>)</span></td>
+                                <td style="text-align:center">September 30, 2006</td>
+                            </tr>
+                            <tr class="vevent" style="text-align:center;background:inherit">
+                                <th scope="row" rowspan="1" id="ep54" style="text-align:center">54</th>
+                                <td class="summary" style="text-align:left">"The Summoning Jutsu: Wisdom of the Pervy
+                                    Sage!"<br>Transcription: "<span style="font-style: normal" lang="ja-Latn"
+                                        title="Japanese-language romanization">Ero-sennin jikiden Kuchiyose no Jutsu
+                                        dattebayo!!</span>"
+                                    (<a href="/wiki/Japanese_language" title="Japanese language">Japanese</a>: <span
+                                        lang="ja">エロ仙人直伝
+                                        口寄せの術だってばよ!!</span>)</td>
+                                <td style="text-align:center">October&nbsp;15,&nbsp;2003<span
+                                        style="display:none">&nbsp;(<span
+                                            class="bday dtstart published updated">2003-10-15</span>)</span></td>
+                                <td style="text-align:center">October 7, 2006</td>
+                            </tr>
+                            <tr class="vevent" style="text-align:center;background:inherit">
+                                <th scope="row" rowspan="1" id="ep55" style="text-align:center">55</th>
+                                <td class="summary" style="text-align:left">"A Feeling of Yearning, A Flower Full of
+                                    Hope"<br>Transcription: "<span style="font-style: normal" lang="ja-Latn"
+                                        title="Japanese-language romanization">Setsunai omoi Negai o kometa
+                                        ichirin</span>" (<a href="/wiki/Japanese_language"
+                                        title="Japanese language">Japanese</a>: <span lang="ja">切ない想い
+                                        願いを込めた一輪</span>)</td>
+                                <td style="text-align:center">October&nbsp;22,&nbsp;2003<span
+                                        style="display:none">&nbsp;(<span
+                                            class="bday dtstart published updated">2003-10-22</span>)</span></td>
+                                <td style="text-align:center">October 21, 2006</td>
+                            </tr>
+                            <tr class="vevent" style="text-align:center;background:inherit">
+                                <th scope="row" rowspan="1" id="ep56" style="text-align:center">56</th>
+                                <td class="summary" style="text-align:left">"Live or Die: Risk it All to Win it
+                                    All!"<br>Transcription:
+                                    "<span style="font-style: normal" lang="ja-Latn"
+                                        title="Japanese-language romanization">Sei ka shi
+                                        ka!? Menkyokaiden wa inochigake!</span>" (<a href="/wiki/Japanese_language"
+                                        title="Japanese language">Japanese</a>: <span lang="ja">生か死か!?免許皆伝は命懸け!</span>)
+                                </td>
+                                <td style="text-align:center">October&nbsp;29,&nbsp;2003<span
+                                        style="display:none">&nbsp;(<span
+                                            class="bday dtstart published updated">2003-10-29</span>)</span></td>
+                                <td style="text-align:center">October 28, 2006</td>
+                            </tr>
+                            <tr class="vevent" style="text-align:center;background:inherit">
+                                <th scope="row" rowspan="1" id="ep57" style="text-align:center">57</th>
+                                <td class="summary" style="text-align:left">"He Flies! He Jumps! He Lurks! Chief Toad
+                                    Appears!"<br>Transcription: "<span style="font-style: normal" lang="ja-Latn"
+                                        title="Japanese-language romanization">Tonda! Haneta! Mogutta! Gama oyabun
+                                        tōjō!!</span>" (<a href="/wiki/Japanese_language"
+                                        title="Japanese language">Japanese</a>: <span
+                                        lang="ja">飛んだ!跳ねた!潜った!ガマ親分登場!!</span>)</td>
+                                <td style="text-align:center">November&nbsp;5,&nbsp;2003<span
+                                        style="display:none">&nbsp;(<span
+                                            class="bday dtstart published updated">2003-11-05</span>)</span></td>
+                                <td style="text-align:center">November 4, 2006</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

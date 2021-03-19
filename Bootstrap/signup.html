@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+    <title>Sign up</title>
+    <script>
+        window.onload = function () {
+            setTimeout(function () {
+                document.getElementById('loadingDiv').style.display = "none";
+                document.getElementById('registrationDiv').style.display = "";
+            }, 2000);
+        }
+    </script>
+    <style>
+        body {
+            background: #23074d;
+            /* fallback for old browsers */
+            background: -webkit-linear-gradient(to right, #cc5333, #23074d);
+            /* Chrome 10-25, Safari 5.1-6 */
+            background: linear-gradient(to right, #cc5333, #23074d);
+            /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-sm nav-pills bg-dark">
+        <ul class="nav  mr-auto">
+            <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="naruto.html">Naruto</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Demon Slayer</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" href="signup.html">Register</a>
+            </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="text" placeholder="Search">
+            <button class="btn btn-success my-2 my-sm-0" type="button">Search</button>
+        </form>
+    </nav>
+    <div class="text-center" id="loadingDiv">
+        <div class="spinner-border" role="status" style="width: 3rem; height: 3rem;">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div>
+    <div class="d-flex justify-content-center" id="registrationDiv" style="display: none !important;">
+        <form class="row g-2 col-6" name="user-registration-form">
+            <div class="col-md-6">
+                <label for="username" class="form-label text-light">User Name:</label>
+                <input type="text" class="form-control" id="username" name="username" maxlength="20"
+                    placeholder="Enter your username" />
+            </div>
+            <div class="col-md-6">
+                <label for="username" class="form-label text-light">Password:</label>
+                <input type="password" id="password" name="password" maxlength="20" class="form-control"
+                    placeholder="Enter your password" />
+            </div>
+            <div class="col-12">
+                <label for="email" class="form-label text-light">Email:</label>
+                <input type="email" id="email" name="email" maxlength="50" class="form-control"
+                    placeholder="Enter your email id" />
+            </div>
+            <div class="col-md-6">
+                <label class="form-label text-light" for="firstname">First Name:</label>
+                <input type="text" id="firstname" name="firstname" maxlength="20" class="form-control"
+                    placeholder="Enter your first name" />
+            </div>
+            <div class="col-md-6">
+                <label class="form-label text-light" for="lastname">Last Name:</label>
+                <input type="text" id="lastname" name="lastname" maxlength="20" class="form-control"
+                    placeholder="Enter your last name" />
+            </div>
+            <div class="col-12">
+                <label class="form-label text-light" for="address">Address:</label>
+                <textarea name="address" id="address" placeholder="Enter your address" rows="3" cols="30"
+                    class="form-control" maxlength="500"></textarea>
+            </div>
+            <div class="col-12">
+                <label class="form-label text-light" for="city">City:</label>
+                <select class="form-control" name="city" id="city">
+                    <option value="0"></option>
+                    <option value="1">Delhi</option>
+                    <option value="2">Gurgaon</option>
+                    <option value="3" selected>Noida</option>
+                    <option value="4">Chandigarh</option>
+                </select>
+            </div>
+            <div class="col-12">
+                <label class="form-label text-light" for="gender">Gender:</label>
+            </div>
+            <div class="col-12">
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="male" id="male" value="male">
+                    <label class="form-check-label text-light" for="male">Male</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="female" id="female" value="female">
+                    <label class="form-check-label text-light" for="female">Female</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="other" id="other" value="other">
+                    <label class="form-check-label text-light" for="other">Other</label>
+                </div>
+            </div>
+            <br />
+            <div class="col-12">
+                <label class="form-label text-light">Age group:</label>
+            </div>
+            <div class="col-12">
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="checkbox" name="fivetofifteen" id="fivetofifteen"
+                        value="fivetofifteen">
+                    <label class="form-check-label text-light" for="fivetofifteen">5-15</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="checkbox" name="sixteentoeighteen" id="sixteentoeighteen"
+                        value="sixteentoeighteen">
+                    <label class="form-check-label text-light" for="sixteentoeighteen">16-18</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="checkbox" name="eighteenplus" id="eighteenplus"
+                        value="eighteenplus">
+                    <label class="form-check-label text-light" for="eighteenplus">18+</label>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <button type="button" class="btn btn-success" data-toggle="modal" data-target="#signupModal">
+                    Sign up!
+                </button>
+            </div>
+            <div class="col-md-6">
+                <button type="reset" class="btn btn-secondary">Reset</button>
+            </div>
+            <div class="modal" id="signupModal" tabindex="-1" role="dialog" aria-labelledby="signupModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="signupModalLabel">Site under Construction</h5>
+                        </div>
+                        <div class="modal-body">
+                            The site is not ready to accept users yet. Please try after sometime.
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
